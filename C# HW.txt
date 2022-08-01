@@ -9,10 +9,10 @@ class HelloWorld {
       Console.WriteLine("The damage rate is: "+damage);
       Console.WriteLine("The boost rate is: "+boost);
       if (health>boost){
-          Console.WriteLine(health+" is greater than "+boost);
+          Console.WriteLine(boost+" is less than "+health);
       }
       else if (boost>health){
-          Console.WriteLine(boost+" is greater that "+health);
+          Console.WriteLine(health+" is less than "+boost);
       }
   }
 }
